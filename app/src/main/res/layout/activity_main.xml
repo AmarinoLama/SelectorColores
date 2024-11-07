@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color_rgba"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/sb_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:layout_marginTop="5dp"
+        android:min="0"
+        android:max="255"
+        android:progress="1"
+        android:thumbTint="@color/white"/>
+
+    <SeekBar
+        android:id="@+id/sb_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginTop="5dp"
+        android:min="0"
+        android:max="255"
+        android:progress="1"
+        android:thumbTint="@color/black"/>
+
+    <SeekBar
+        android:id="@+id/sb_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:layout_marginTop="5dp"
+        android:min="0"
+        android:max="255"
+        android:progress="1"
+        android:thumbTint="@color/white"/>
+
+    <SeekBar
+        android:id="@+id/sb_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:min="0"
+        android:max="255"
+        android:progress="1"
+        android:thumbTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SelectorColores</string>
     <string name="color_rgba">COLOR RGBA</string>
+    <string name="textoRgba">Cantidad: rbga(0, 0, 0, 0)</string>
 </resources>
